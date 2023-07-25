@@ -109,13 +109,36 @@
 										  </label>
 										</div>
 										<div>
-										  <label>
-											Gold Star Status:
+										  <label for="gold-star">
+											Gold Star Member:								
+										</label>
 											<input
+												id="gold-star"
 											  type="checkbox"
 											  name="goldStarStatus"
 											/>
-										  </label>
+											<label for="gold-star">(check if applicable)</label>
+										</div>
+										<div>
+											<label for="veteran">Veteran Status:</label>
+											<input
+											type="checkbox"
+											id="veteran"
+											name="veteranStatus"
+											value="veteran"
+											required
+											>
+											<label for="veteran">Veteran</label>
+
+											
+											<input
+											type="checkbox"
+											id="non-veteran"
+											name="veteranStatus"
+											value="veteran"
+											required
+											>
+											<label for="non-veteran">Non-Veteran</label>
 										</div>
 										<div>
 										  <label>
@@ -127,22 +150,12 @@
 											/>
 										  </label>
 										</div>
-										<div>
-										  <label>
-											Veteran Status:
-											<input
-											  type="checkbox"
-											  name="veteranStatus"
-											/>
-										  </label>
-										</div>
 								  
 										<h2>Business Information</h2>
 										<div>
 											
 										<div>
-											<script type="text/javascript">
-
+							
 												<label>
 													Industry:
 													<select
@@ -158,7 +171,7 @@
 											  </select>
 											  </label>
 											  
-											  </script>
+											  
 											</div>
 											
 										
@@ -174,34 +187,7 @@
 											/>
 										  </label>
 										</div>
-										<div>
-										  <label>
-											Link to Website (optional):
-											<input
-											  type="url"
-											  name="websiteLink"
-											/>
-										  </label>
-										</div>
-										<div>
-										  <label>
-											Logo or Image (optional):
-											<input
-											  type="file" 
-											  name="logoImage"
-											  accept="image/png, image/jpeg">
-											  </input>
-										  </label>
-										</div>
-										<div>
-										  <label>
-											Social Media Links (optional):
-											<input
-											  type="text"
-											  name="socialMediaLinks"
-											/>
-										  </label>
-										</div>
+										
 										<div>
 										  <label>
 											LLC: 
@@ -223,6 +209,25 @@
 										  </div>        
 										</div>
 										<div>
+											<label>
+											  Link to Website (optional):
+											  <input
+												type="url"
+												name="websiteLink"
+											  />
+											</label>
+										  </div>
+
+										  <div>
+											<label>
+											  Social Media Links (optional):
+											  <input
+												type="text"
+												name="socialMediaLinks"
+											  />
+											</label>
+										  </div>
+										<div>
 										  <label>
 											Tell us about your company:
 											<textarea
@@ -240,6 +245,16 @@
 											/>
 										  </label>
 										</div>
+										<div>
+											<label>
+											  Logo or Image (optional):
+											  <input
+												type="file" 
+												name="logoImage"
+												accept="image/png, image/jpeg">
+												</input>
+											</label>
+										  </div>
 										<button type="submit">Submit</button>
 									</form>
 								</div>
@@ -393,7 +408,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script type="text/javascript" src="assets/js/form.details.js"></script>
+			<!-- <script type="text/javascript" src="assets/js/form.details.js"></script> -->
 
 	</body>
 </html>
