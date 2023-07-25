@@ -1,4 +1,8 @@
-# Business-Form
+# Business-Form - built with GitHub Pages
 
-# Open the index.html with Live Server extension (VSC)
+
+
+## To Edit / Add anything:
+### 1. Clone the repo
+### 2. Open the index.html with Live Server extension (VSC) or equivalent
 
