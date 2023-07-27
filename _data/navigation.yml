@@ -1,0 +1,10 @@
+# Jekyll supports loading data from YAML, JSON, and CSV files located in a _data directory. Data files are a great way to separate content from source code to make the site easier to maintain.
+
+# Jekyll makes this data file available to you at site.data.navigation. Instead of outputting each link in _includes/navigation.html, now you can iterate over the data file instead:
+
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: Blog
+  link: /blog.html
